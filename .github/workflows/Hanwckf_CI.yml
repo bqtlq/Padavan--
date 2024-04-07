@@ -29,7 +29,7 @@ jobs:
       matrix:
         include:
           - build_variant: "mt7620"
-            targets: "RT-N14U"
+            targets: "YZ-100A"
     steps:
       - name: Checkout main            # 导入主分支
         uses: actions/checkout@v2
